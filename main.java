@@ -48,7 +48,9 @@ public class main {
         double lineY2 = (x4 - x3) * (y4 - y3);
 
         double lengthOfLine2 = Math.sqrt((x4 - x3) * (x4 - x3) + (y4 - y3) * (y4 - y3));
+
         System.out.println("lenght of line one :" + lengthOfLine1);
+
         System.out.println("lenght of line two :" + lengthOfLine2);
     }
 }
