@@ -52,5 +52,14 @@ public class main {
         System.out.println("lenght of line one :" + lengthOfLine1);
 
         System.out.println("lenght of line two :" + lengthOfLine2);
+
+
+        if (lengthOfLine1 == lengthOfLine2) {
+            System.out.println("both lines are same");
+        } else if (lengthOfLine1 < lengthOfLine2) {
+            System.out.println("line 2 is greater");
+        } else {
+            System.out.println("linde one is greater");
+        }
     }
 }
